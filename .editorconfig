@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CA1820: 使用字符串长度测试是否有空字符串
+dotnet_diagnostic.CA1820.severity = none

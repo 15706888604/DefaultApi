@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DefaultApi</name>
+    </assembly>
+    <members>
+        <member name="M:DefaultApi.Controllers.HomeController.GetUsers">
+            <summary>
+            获取用户信息
+            </summary>
+            <remarks>
+            Home/GetUsers
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:DefaultApi.Controllers.HomeController.SelectUser(System.Int32)">
+            <summary>
+            根据ID查询用户
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DefaultApi.Controllers.HomeController.CreateUser(System.String,System.Int32)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="Name">姓名</param>
+            <param name="Age">年龄</param>
+        </member>
+        <member name="M:DefaultApi.Controllers.HomeController.UpdateUser(System.Int32,System.String,System.Int32)">
+            <summary>
+            根据ID修改用户
+            </summary>
+            <param name="ID"></param>
+            <param name="Name"></param>
+            <param name="Age"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DefaultApi.Controllers.HomeController.DeleteUser(System.Int32)">
+            <summary>
+            根据ID删除用户
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
